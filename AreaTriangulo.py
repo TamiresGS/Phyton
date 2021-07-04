@@ -1,0 +1,10 @@
+print('======Desafio18=====')
+print('')
+print('Calculando áreas')
+('')
+import math
+a=float(input('Digite um ângulo:'))
+seno=math.sin(math.radians(a))
+coseno=math.cos(math.radians(a))
+tan=math.tan(math.radians(a))
+print('Logo o seno é {:.3f}\nO coseno{:.3f}\nE a tangente é{:.3f}'.format(seno,coseno,tan))

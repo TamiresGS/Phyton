@@ -1,0 +1,15 @@
+print('######Desafio19######')
+print('')
+import random
+print('Vamos ao sorteio !!!')
+print('Preciso de 4 Aluno então vamos lá😉')
+a1=input('Digite o nome de um aluno:')
+a2=input('Digite o nome de outro aluno:')
+a3=input('Digite outro aluno:')
+a4=input('Digite agora o último aluno:')
+print('')
+alunos=[a1,a2,a3,a4]
+sort1=random.choice(alunos)
+sort2=random.sample(alunos,1)
+print('Dentre os alunos, o escolhido é {},parabéns!!!'.format(sort1))
+print('Dentre os alunos o escolhido agora é {},parabéns!!!'.format(sort2))

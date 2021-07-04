@@ -1,0 +1,6 @@
+print('DESAFIO 26')
+print('')
+frase=(input('Digite uma frase:')).lower().strip()
+print('Na frase a letra a aparece {} vezes.'.format(frase.count('a')))
+print('A primeira vez que a letra a aparece é na posição: {}'.format(frase.find('a')))
+print('E a última vez que aparece é {}'.format(frase.rfind('a')))
